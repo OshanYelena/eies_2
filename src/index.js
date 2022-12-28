@@ -13,6 +13,7 @@ import Auth from "layouts/Auth.js";
 // views without layouts
 
 import Landing from "views/Landing.js";
+import Event from "views/event";
 import Profile from "views/Profile.js";
 import Software from "views/circles/software";
 import Power from "views/circles/power";
@@ -32,6 +33,8 @@ ReactDOM.render(
       <Route path="/tele" component={Tele} />
       {/* add routes without layouts */}
       <Route path="/landing" exact component={Landing} />
+      <Route path="/events" exact component={Event} />
+
       <Route path="/profile" exact component={Profile} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}

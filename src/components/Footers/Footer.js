@@ -105,7 +105,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="http://eie.eng.ruh.ac.lk/" target="_blank"
                       >
-                      DIEE
+                      DEIE
                       </a>
                     </li>
                     <li>
@@ -113,7 +113,7 @@ export default function Footer() {
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                         href="http://eie.eng.ruh.ac.lk/alumni/" target="_blank"
                       >
-                        Alumini
+                        Alumni
                       </a>
                     </li>
                   </ul>

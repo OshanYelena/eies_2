@@ -59,12 +59,12 @@ export default function Index() {
           
 
         <div className="container mx-auto items-center flex flex-wrap">
-          <div className="w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
+          <div className=" back-text w-full md:w-8/12 lg:w-6/12 xl:w-6/12 px-4">
             <div className="pt-32 sm:pt-0 typewriter">
               <h1 className="font-semibold text-5xl text-white">
                 Welcome To EIES
               </h1>
-              <p className="mt-4 text-lg leading-relaxed  text-white">
+              <p className="mt-4  text-lg leading-relaxed  text-white">
                 The most active student society of the Department of Electrical
                 And Information Engineering of the Faculty of Engineering,
                 University of Ruhuna provides DEIE students the chance to grow
@@ -550,6 +550,7 @@ export default function Index() {
                     </div>
                   </Link>
                 </div>
+                
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl  	text-blueGray-100 font-semibold pb-4 text-center">
                     3D printing
