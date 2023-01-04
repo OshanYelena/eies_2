@@ -13,7 +13,7 @@ import Auth from "layouts/Auth.js";
 // views without layouts
 
 import Landing from "views/Landing.js";
-import Event from "views/event";
+import Event from "views/events/event";
 import Profile from "views/Profile.js";
 import Software from "views/circles/software";
 import Power from "views/circles/power";
