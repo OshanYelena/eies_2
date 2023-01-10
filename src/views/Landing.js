@@ -29,15 +29,8 @@ export default function Landing() {
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
                   <h1 className="text-white font-semibold text-5xl">
-                    Our Circles
+                    Our Events
                   </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
-                    The EIES comprises 4 sub-circles related to leading
-                    sub-fields of Electrical and Information Engineering such as
-                    Power, Telecommunication, Electronics & Software. Each of
-                    these circles individually organizes events with the active
-                    participation of many students.
-                  </p>
                 </div>
               </div>
             </div>
