@@ -6,6 +6,8 @@ import background from '../../assets/img/Whatissoftwareandtypesofsoftwarewithexa
 import Navbar from "components/Navbars/AuthNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+import '../../assets/styles/imgStyle.css'
+
 export default function Software() {
   return (
     <>
@@ -91,7 +93,7 @@ export default function Software() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/PngItem_1947767.png").default}
+                  // src={require("assets/img/PngItem_1947767.png").default}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -195,7 +197,7 @@ export default function Software() {
                   <img
                     alt="..."
                     src={require("assets/img/software/Ashan Pramodye - Ashan Herath.png").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Ashan Pramodye</h5>

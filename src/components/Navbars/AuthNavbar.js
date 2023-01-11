@@ -50,7 +50,7 @@ export default function Navbar(props) {
                <Link to="/landing" className="text-white"> Circles</Link>
               </li>
               <li className="flex items-center hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-              <Link to="/landing" className="text-white"> Events</Link>
+              <Link to="/events-landing" className="text-white"> Events</Link>
               </li>
               <li className="flex items-center">
                 <a

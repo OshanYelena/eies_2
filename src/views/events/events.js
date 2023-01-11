@@ -150,7 +150,7 @@ export const Innovex = () => {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src={require("assets/img/workshop on equips.jpg").default}
               />
             </div>
           </div>
@@ -406,7 +406,7 @@ export const Innovex = () => {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">Date:</h4>
+                        <h4 className="text-blueGray-500">Date: December 2021</h4>
                       </div>
                     </div>
                   </li>
@@ -436,7 +436,7 @@ export const Innovex = () => {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src={require("assets/img/hackdoze.jpg").default}
               />
             </div>
           </div>
@@ -543,7 +543,7 @@ export const Innovex = () => {
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   “Unlock your higher studies” was a webinar organized by EIES
                   collaborating with WIE was successfully concluded on 16th
-                  Februay 2022 via zoom. Mr. Gaveen Ranabahu and Ms. Hiruni
+                  February 2022 via zoom. Mr. Gaveen Ranabahu and Ms. Hiruni
                   Silva; two experienced speakers conducted the event sharing
                   their great insights with students. The main aim of the
                   webinar was to motivate and encourage students to choose the
@@ -559,7 +559,7 @@ export const Innovex = () => {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">Date:</h4>
+                        <h4 className="text-blueGray-500">Date: February 2022</h4>
                       </div>
                     </div>
                   </li>

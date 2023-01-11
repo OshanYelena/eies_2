@@ -91,7 +91,7 @@ export default function Elec() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/PngItem_1947767.png").default}
+                  // src={require("assets/img/PngItem_1947767.png").default}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">

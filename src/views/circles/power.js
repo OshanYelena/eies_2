@@ -92,7 +92,7 @@ export default function Power() {
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
                  
-                  src={require("assets/img/PngItem_1947767.png").default}
+                  // src={require("assets/img/PngItem_1947767.png").default}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -195,7 +195,7 @@ export default function Power() {
                   <img
                     alt="..."
                     src={require("assets/img/power/Image 3 (1) - Gihan Kavinda Amarabandu.png").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Gihan Kavinda</h5>

@@ -67,7 +67,7 @@ export default function Landing() {
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={
-                          require("assets/img/software_1000x700.webp").default
+                          require("assets/img/xbotix.jpg").default
                         }
                       />
                     </div>
@@ -78,57 +78,30 @@ export default function Landing() {
                       Events On 2018, 2019 & 2020
                     </h6>
                     <div className="contain">
-                      <div className=" menu">
-                        <button className="toggle">Events</button>
+                      <div className="menu">
+                 
                         <ul className="list">
                           <Link to="/event/Innovex">
                             <li className="list-item">INNIVATIX 1.0</li>
                           </Link>
                           <Link to="/event/WorkshopTronic">
                             <li className="list-item">
-                              The workshop on Lab Equipment by tronic circle
+                            The workshop on Lab Equipment by tronic circle
                             </li>
                           </Link>
-                          <Link to="/event/FireDetection">
-                            <li className="list-item">
-                              {" "}
-                              𝐅𝐢𝐫𝐞 𝐃𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐏𝐫𝐨𝐭𝐞𝐜𝐭𝐢𝐨𝐧
-                            </li>
-                          </Link>
+
                           <Link to="/event/Cisco">
                             <li className="list-item">
                               {" "}
-                              𝙸𝚗𝚝𝚛𝚘𝚍𝚞𝚌𝚝𝚒𝚘𝚗 𝚝𝚘 𝙲𝚒𝚜𝚌𝚘 𝙲𝚎𝚛𝚝𝚒𝚏𝚒𝚌𝚊𝚝𝚒𝚘𝚗
+                              Introduction to Cisco Certification
+                        
                             </li>
-                          </Link>
-                          <Link to="/event/HackDoze1">
-                            <li className="list-item">HackDoze</li>
                           </Link>
                           <Link to="/event/Diptrace">
                             <li className="list-item">DIPTRACE Workshop</li>
                           </Link>
-                          <Link to="/event/UnlockHigh">
-                            <li className="list-item">
-                              Unlock Your Higher Studies Goals
-                            </li>
-                          </Link>
-                          <Link to="/event/GuideCareer">
-                            <li className="list-item">
-                              {" "}
-                              𝙰 𝚐𝚞𝚒𝚍𝚎 𝚏𝚘𝚛 𝚌𝚊𝚛𝚎𝚎𝚛 𝚘𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚒𝚎𝚜
-                            </li>
-                          </Link>
-                          <Link to="/event/Innovex">
-                            <li className="list-item">Front-end</li>
-                          </Link>
-                          <Link to="/event/Innovex">
-                            <li className="list-item">Front-end</li>
-                          </Link>
-                          <Link to="/event/Innovex">
-                            <li className="list-item">Front-end</li>
-                          </Link>
-                          <Link to="/event/Innovex">
-                            <li className="list-item">Front-end</li>
+                          <Link to="/event/Exbotics">
+                            <li className="list-item">Xbotics 2019, 2017</li>
                           </Link>
                         </ul>
                       </div>
@@ -145,7 +118,7 @@ export default function Landing() {
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={
-                          require("assets/img/csm_istock-468281218_energie_solar_links_20225143b7.jpeg")
+                          require("assets/img/asp.net.jpg")
                             .default
                         }
                       />
@@ -155,13 +128,18 @@ export default function Landing() {
                     </div>
                     <h6 className="text-xl font-semibold">Event On 2021</h6>
                     <div className="contain">
-                      <div className=" menu">
-                        <button className="toggle">Events</button>
+                      <div className="menu">
+                        {/* <button className="toggle">Events</button> */}
                         <ul className="list">
-                          <li className="list-item">Front-end</li>
-                          <li className="list-item">Back-end</li>
-                          <li className="list-item">Full-Stack</li>
-                          <li className="list-item">@Website_Mentor</li>
+                          <Link to="/event/HackDoze1">
+                            <li className="list-item">HackDoze 1.0</li>
+                          </Link>
+                          <Link to="/event/DotNet">
+                            <li className="list-item">
+                              𝐇𝐚𝐧𝐝𝐬-𝐨𝐧 𝐛𝐚𝐜𝐤𝐞𝐧𝐝 𝐰𝐞𝐛 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐦𝐞𝐧𝐭
+                            </li>
+                          </Link>
+            
                         </ul>
                       </div>
                     </div>
@@ -177,7 +155,7 @@ export default function Landing() {
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={
-                          require("assets/img/1649238424_resized-pic30.jpeg")
+                          require("assets/img/fire.jpg")
                             .default
                         }
                       />
@@ -189,12 +167,34 @@ export default function Landing() {
                     <h6 className="text-xl font-semibold">Event On 2022</h6>
                     <div className="contain">
                       <div className=" menu">
-                        <button className="toggle">Events</button>
+                   
                         <ul className="list">
-                          <li className="list-item">Front-end</li>
-                          <li className="list-item">Back-end</li>
-                          <li className="list-item">Full-Stack</li>
-                          <li className="list-item">@Website_Mentor</li>
+                        <Link to="/event/FireDetection">
+                            <li className="list-item">
+                              {" "}
+                              𝐅𝐢𝐫𝐞 𝐃𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐏𝐫𝐨𝐭𝐞𝐜𝐭𝐢𝐨𝐧
+                            </li>
+                          </Link>
+                          <Link to="/event/Career">
+                            <li className="list-item">Career fair 2022</li>
+                          </Link>
+                          <Link to="/event/Awareness">
+                            <li className="list-item">
+                              Awareness sessions 2022
+                            </li>
+                          </Link>
+                          <Link to="/event/GuideCareer">
+                            <li className="list-item">
+                              {" "}
+                              𝙰 𝚐𝚞𝚒𝚍𝚎 𝚏𝚘𝚛 𝚌𝚊𝚛𝚎𝚎𝚛 𝚘𝚙𝚙𝚘𝚛𝚝𝚞𝚗𝚒𝚝𝚒𝚎𝚜
+                            </li>
+                          </Link>
+                          <Link to="/event/UnlockHigh">
+                            <li className="list-item">
+                              Unlock Your Higher Studies Goals
+                            </li>
+                          </Link>
+                      
                         </ul>
                       </div>
                     </div>

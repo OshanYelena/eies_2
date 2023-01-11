@@ -6,6 +6,8 @@ import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 import "../assets/styles/slider.css";
 import "../assets/styles/mask.css";
+import "../assets/styles/imgStyle.css";
+
 import "../assets/styles/homeHeader.css";
 
 import image_1 from '../assets/img/DSC_0007-01.jpeg'
@@ -13,6 +15,8 @@ import image_2 from '../assets/img/DSC_0048-01.jpeg'
 import image_3 from '../assets/img/81468739_2304218053201462_4629050236197666816_n.jpg'
 import Carousel from "components/slider/slider.js";
 import SwiftSlider from 'react-swift-slider'
+
+
 
 const data =  [
   {'id':'1','src':`${image_1}`},
@@ -499,10 +503,10 @@ export default function Index() {
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Workshop - Introduction To Competition And Innvation
+                  Introduction To Competition And Innvation
                   </h5>
                   <Link to="/">
-                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
@@ -518,6 +522,8 @@ export default function Index() {
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     School Robotics Workshop
+                    <br />
+                    2017
                   </h5>
                   <Link to="/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
@@ -535,7 +541,9 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Xbotics - 2019
+                    Xbotics 
+                    <br />
+                      2019
                   </h5>
                   <Link to="/">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
@@ -577,7 +585,7 @@ export default function Index() {
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        className="align-middle img-size-1 border-none max-w-full h-auto rounded-lg"
                         src={
                           require("assets/img/22339555_1815085128781426_7631784725788299262_o.jpg")
                             .default

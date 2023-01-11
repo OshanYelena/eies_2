@@ -91,7 +91,7 @@ export default function Tele() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src={require("assets/img/PngItem_1947767.png").default}
+                  // src={require("assets/img/PngItem_1947767.png").default}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -196,7 +196,7 @@ export default function Tele() {
                   <img
                     alt="..."
                     src={require("assets/img/tele/AD288A4D-A7B3-4F7F-8001-2661F753BA01 - Saranga Nayanajith.jpeg").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg rounded-full img-size mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Saranga Nayanajith</h5>

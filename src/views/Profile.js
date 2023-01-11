@@ -499,7 +499,7 @@ export default function Profile() {
                       require("assets/img/eies/Image-218_-_Copy__2_-removebg-preview (1) - Sajitha Wijewantha.jpg")
                         .default
                     }
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Sajitha Wijewantha </h5>
