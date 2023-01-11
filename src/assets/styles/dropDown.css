@@ -1,6 +1,6 @@
 .contain {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: flex-start;
     padding-top: 20px;
 }
@@ -57,8 +57,10 @@
 }
 
  .list-item:hover {
-  background-color: dodgerblue;
-  color: #fff;
+  font-size: 1.1rem;
+  color: red
+  /* background-color: dodgerblue; */
+  /* color: #fff; */
 }
 /*
 .toggle:focus::after {
