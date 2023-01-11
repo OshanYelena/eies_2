@@ -1,10 +1,8 @@
-import React, { Component } from "react";
+import React, { useEffect, createRef } from "react";
 
 import { useParams } from "react-router";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
-
-
 
 export const Innovex = () => {
   return (
@@ -81,7 +79,7 @@ export const Innovex = () => {
   );
 };
 
- export const WorkshopTronic = () => {
+export const WorkshopTronic = () => {
   return (
     <>
       {" "}
@@ -160,7 +158,7 @@ export const Innovex = () => {
   );
 };
 
- export const FireDetection = () => {
+export const FireDetection = () => {
   return (
     <>
       <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
@@ -295,7 +293,7 @@ export const Innovex = () => {
   );
 };
 
- export const Cisco = () => {
+export const Cisco = () => {
   return (
     <>
       {" "}
@@ -369,7 +367,7 @@ export const Innovex = () => {
   );
 };
 
- export const HackDoze1 = () => {
+export const HackDoze1 = () => {
   return (
     <>
       {" "}
@@ -406,7 +404,9 @@ export const Innovex = () => {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">Date: December 2021</h4>
+                        <h4 className="text-blueGray-500">
+                          Date: December 2021
+                        </h4>
                       </div>
                     </div>
                   </li>
@@ -446,7 +446,7 @@ export const Innovex = () => {
   );
 };
 
- export const Diptrace = () => {
+export const Diptrace = () => {
   return (
     <>
       <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
@@ -521,7 +521,7 @@ export const Innovex = () => {
   );
 };
 
- export const UnlockHigh = () => {
+export const UnlockHigh = () => {
   return (
     <>
       {" "}
@@ -559,7 +559,9 @@ export const Innovex = () => {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">Date: February 2022</h4>
+                        <h4 className="text-blueGray-500">
+                          Date: February 2022
+                        </h4>
                       </div>
                     </div>
                   </li>
@@ -599,7 +601,7 @@ export const Innovex = () => {
   );
 };
 
- export const GuideCareer = () => {
+export const GuideCareer = () => {
   return (
     <>
       {" "}
@@ -679,7 +681,7 @@ export const Innovex = () => {
   );
 };
 
- export const DotNet = () => {
+export const DotNet = () => {
   return (
     <>
       {" "}
@@ -760,7 +762,7 @@ export const Innovex = () => {
   );
 };
 
- export const Exbotics = () => {
+export const Exbotics = () => {
   return (
     <>
       {" "}
@@ -839,136 +841,133 @@ export const Innovex = () => {
   );
 };
 
- export const Awareness = () => {
-    return (
-      <>
-        <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
-          <div
-            className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-            style={{ transform: "translateZ(0)" }}
-          ></div>
-          <div className="container mx-auto px-4 pb-32 pt-48">
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
-                <div className="md:pr-12">
-                  <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                    <i className="fas fa-file-alt text-xl"></i>
-                  </div>
-                  <h3 className="text-3xl font-semibold">
-                    Awareness sessions 2022
-                  </h3>
-                  <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    The prime objective of having "Awareness Sessions" is building
-                    up the communication and finding recruitment opportunities for
-                    the undergraduates. The series of awareness sessions was
-                    successfully concluded on 7th June 2022.
-                  </p>
-                  <ul className="list-none mt-6">
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                            <i class="fas fa-calendar"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">Date: 2022</h4>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                            <i class="fas fa-info"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">
-                            Industry awareness sessions for career week Software
-                            companies: Synopsys, MIT ESP, LSEG technologies,
-                            Enactor, Creative Software
-                          </h4>
-                        </div>
-                      </div>
-                    </li>
-                  </ul>
+export const Awareness = () => {
+  return (
+    <>
+      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+        <div
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
+        ></div>
+        <div className="container mx-auto px-4 pb-32 pt-48">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
+              <div className="md:pr-12">
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                  <i className="fas fa-file-alt text-xl"></i>
                 </div>
-              </div>
-  
-              <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-xl"
-                  style={{
-                    transform:
-                      "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-                  }}
-                  src={require("assets/img/documentation.png").default}
-                />
+                <h3 className="text-3xl font-semibold">
+                  Awareness sessions 2022
+                </h3>
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  The prime objective of having "Awareness Sessions" is building
+                  up the communication and finding recruitment opportunities for
+                  the undergraduates. The series of awareness sessions was
+                  successfully concluded on 7th June 2022.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i class="fas fa-calendar"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">Date: 2022</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i class="fas fa-info"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Industry awareness sessions for career week Software
+                          companies: Synopsys, MIT ESP, LSEG technologies,
+                          Enactor, Creative Software
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
             </div>
+
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src={require("assets/img/documentation.png").default}
+              />
+            </div>
           </div>
-        </section>
-      </>
-    );
-  };
-  
-   export const Career = () => {
-    return (
-      <>
-        {" "}
-        <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
-          <div
-            className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
-            style={{ transform: "translateZ(0)" }}
-          ></div>
-          <div className="container mx-auto px-4 pb-32 pt-48">
-            <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
-                <div className="md:pr-12">
-                  <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
-                    <i className="fas fa-file-alt text-xl"></i>
-                  </div>
-                  <h3 className="text-3xl font-semibold">Career fair 2022</h3>
-                  <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    "Career Fair 2022" is a program aimed to offer the industrial
-                    exposure to the students in 2nd year, 3rd year and final year.
-                    This event was successfully concluded on 7th June 2022.
-                    Several industries took part in the career fair including
-                    Lseg, Synopsis, creative software, Mit esp and enactor.
-                  </p>
-                  <ul className="list-none mt-6">
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                     
-                            <i class="fas fa-calendar"></i>
-                            {/* <i className="fas fa-fingerprint"></i> */}
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">Date: 2022</h4>
-                        </div>
+        </div>
+      </section>
+    </>
+  );
+};
+
+export const Career = () => {
+  return (
+    <>
+      {" "}
+      <section className="mt-48 md:mt-40 pb-40 relative bg-blueGray-100">
+        <div
+          className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
+          style={{ transform: "translateZ(0)" }}
+        ></div>
+        <div className="container mx-auto px-4 pb-32 pt-48">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
+              <div className="md:pr-12">
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                  <i className="fas fa-file-alt text-xl"></i>
+                </div>
+                <h3 className="text-3xl font-semibold">Career fair 2022</h3>
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  "Career Fair 2022" is a program aimed to offer the industrial
+                  exposure to the students in 2nd year, 3rd year and final year.
+                  This event was successfully concluded on 7th June 2022.
+                  Several industries took part in the career fair including
+                  Lseg, Synopsis, creative software, Mit esp and enactor.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i class="fas fa-calendar"></i>
+                          {/* <i className="fas fa-fingerprint"></i> */}
+                        </span>
                       </div>
-                    </li>
-                    <li className="py-2">
-                      <div className="flex items-center">
-                        <div>
-                          <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
-                            {/* <i className="fab fa-html5"></i> */}
-                            <i class="fas fa-info"></i>
-                          </span>
-                        </div>
-                        <div>
-                          <h4 className="text-blueGray-500">
-                          Career Fair 2022
-                          </h4>
-                        </div>
+                      <div>
+                        <h4 className="text-blueGray-500">Date: 2022</h4>
                       </div>
-                    </li>
-                    {/* <li className="py-2">
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          {/* <i className="fab fa-html5"></i> */}
+                          <i class="fas fa-info"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">Career Fair 2022</h4>
+                      </div>
+                    </div>
+                  </li>
+                  {/* <li className="py-2">
                       <div className="flex items-center">
                         <div>
                           <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
@@ -982,55 +981,54 @@ export const Innovex = () => {
                         </div>
                       </div>
                     </li> */}
-                  </ul>
-                </div>
-              </div>
-  
-              <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-xl"
-                  style={{
-                    transform:
-                      "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
-                  }}
-                  src={require("assets/img/documentation.png").default}
-                />
+                </ul>
               </div>
             </div>
+
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src={require("assets/img/documentation.png").default}
+              />
+            </div>
           </div>
-        </section>
-      </>
-    );
+        </div>
+      </section>
+    </>
+  );
 };
-
-
 
 export default function Events() {
 
-  const { name} = useParams();
+  const ref  = React.createRef();
+  const { name } = useParams();
+  useEffect(() => {
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
 
+  return (
+    <>
+      <IndexNavbar transparent />
 
- return(
- <>
-       <IndexNavbar transparent />
+      {name == "Innovex" && <Innovex />}
+      {name == "WorkshopTronic" && <WorkshopTronic />}
+      {name == "FireDetection" && <FireDetection />}
+      {name == "Cisco" && <Cisco />}
+      {name == "HackDoze1" && <HackDoze1 />}
+      {name == "Diptrace" && <Diptrace />}
+      {name == "UnlockHigh" && <UnlockHigh />}
+      {name == "GuideCareer" && <GuideCareer />}
+      {name == "DotNet" && <DotNet />}
+      {name == "Exbotics" && <Exbotics />}
+      {name == "Awareness" && <Awareness />}
+      {name == "Career" && <Career />}
 
-      {name == "Innovex" && <Innovex/>}
-      {name == "WorkshopTronic" && <WorkshopTronic/>}
-      {name == "FireDetection" && <FireDetection/>}
-      {name == "Cisco" && <Cisco/>}
-      {name == "HackDoze1" && <HackDoze1/>}
-      {name == "Diptrace" && <Diptrace/>}
-      {name == "UnlockHigh" && <UnlockHigh/>}
-      {name == "GuideCareer" && <GuideCareer/>}
-      {name == "DotNet" && <DotNet/>}
-      {name == "Exbotics" && <Exbotics/>}
-      {name == "Awareness" && <Awareness/>}
-      {name == "Career" && <Career/>}
-
-
-       <Footer />
- </>)
-
-
+      <Footer />
+    </>
+  );
 }
