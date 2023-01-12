@@ -243,7 +243,7 @@ export const FireDetection = () => {
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <h5 className="text-xl font-semibold pb-4 text-center">
-                Photo Galery
+              Photo Gallery
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
