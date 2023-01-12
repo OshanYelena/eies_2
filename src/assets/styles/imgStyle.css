@@ -6,3 +6,7 @@
 .img-size-1 {
     height: 288px;
 }
+
+.img-size-2 {
+    height: 260px !important;
+}

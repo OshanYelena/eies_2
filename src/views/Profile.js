@@ -1,19 +1,19 @@
 import React from "react";
 
-import Navbar from "components/Navbars/AuthNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 export default function Profile() {
   return (
     <>
-      <Navbar transparent />
+      <IndexNavbar transparent />
       <main className="profile-page">
         <section className="relative block h-500-px">
           <div
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://scontent.fcmb1-2.fna.fbcdn.net/v/t31.18172-8/11411976_440169822835864_5751233334378742710_o.jpg?_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=M1HnOur5YXkAX_327Nr&_nc_ht=scontent.fcmb1-2.fna&oh=00_AT-e92JLIT8yBPATG2SYwDZNuaVX-brC3GdvUhyYRiiTPw&oe=631649EC')",
+                "url('https://scontent.fcmb1-2.fna.fbcdn.net/v/t1.6435-9/42506566_1008768885975952_7865025124108337152_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=wPMvhEXXQK8AX_OvLbH&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfAN9M3pnK16d4zd4bc6KyUgnEDa5p-9Q1Wvde-U3cjFDQ&oe=63E6EA84')",
             }}
           >
             <span
@@ -21,7 +21,7 @@ export default function Profile() {
               className="w-full h-full absolute opacity-50 bg-black"
             ></span>
           </div>
-          <div className="relative pt-10 pb-32 flex content-center items-center justify-center min-h-screen-75">
+          <div className="relative pt-20 pb-32 flex content-center items-center justify-center min-h-screen-75">
             <div className="container relative mx-auto">
               <div className="items-center flex flex-wrap">
                 <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
@@ -59,13 +59,13 @@ export default function Profile() {
             <div className="relative  flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64">
               <div className="px-6">
                 <div className="flex flex-wrap justify-center">
-                  <div className="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center">
+                  <div className="w-full lg:w-3/12 px-4  flex justify-center">
                     <div className="relative">
-                      {/* <img
+                      <img
                         alt="..."
-                        // src={require("assets/img/EIES LOGO.jpg").default}
+                         src={require("assets/img/EIES LOGO.jpg").default}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-200-px"
-                      /> */}
+                      />
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
@@ -74,6 +74,9 @@ export default function Profile() {
                   <div className="w-full lg:w-4/12 px-4 lg:order-1"></div>
                 </div>
                 <div className="text-center mt-20">
+                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                    <i className="fas fa-rocket text-xl"></i>
+                  </div>
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     Vision
                   </h3>
@@ -90,6 +93,9 @@ export default function Profile() {
                   </div>
                 </div>
                 <div className="text-center mt-20">
+                <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
+                    <i className="fas fa-star text-xl"></i>
+                  </div>
                   <h3 className="text-4xl font-semibold leading-normal mb-2 text-blueGray-700 mb-2">
                     Mission
                   </h3>
@@ -141,7 +147,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Senior Treasurer
                     </p>
-                    <div className="mt-6"></div>
+                    <div className="mt-2"></div>
                   </div>
                 </div>
               </div>
@@ -160,7 +166,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee Member <br /> (staff Member)
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       {/* <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -191,7 +197,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       President
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -220,7 +226,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Vice President
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -249,7 +255,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Secretary
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -276,7 +282,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Assistant Secretary
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -303,7 +309,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Social Secretary
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -334,7 +340,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Junior Treasurer
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -361,7 +367,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Editor
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -388,7 +394,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee Member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -410,14 +416,14 @@ export default function Profile() {
                     src={
                       require("assets/img/eies/8.committee member.png").default
                     }
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Samika Lakshan </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee Member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -446,7 +452,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee Member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -469,14 +475,14 @@ export default function Profile() {
                       require("assets/img/eies/Sachini - Chamathka Sachini.png")
                         .default
                     }
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Sachini Ranaweera </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -506,7 +512,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee Member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -536,7 +542,7 @@ export default function Profile() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       President - Software Circle
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -558,14 +564,14 @@ export default function Profile() {
                       require("assets/img/eies/Photo - Gihan Dissanayaka.png")
                         .default
                     }
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Bahasuru Fernando </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       President - Telecom Circle
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -588,14 +594,14 @@ export default function Profile() {
                       require("assets/img/power/Photo - Nirmani Rathnayaka.jpg")
                         .default
                     }
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Nirmani Rathnayaka</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       President - Power Circle
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -618,14 +624,14 @@ export default function Profile() {
                       require("assets/img/elec/20200802_125540 - Charitha Maduranga.jpg")
                         .default
                     }
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Charitha Maduranga </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       President - Electronic Circle
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"

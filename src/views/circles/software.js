@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 // components
 import background from '../../assets/img/Whatissoftwareandtypesofsoftwarewithexamples1575272423828jpg.jpeg'
-import Navbar from "components/Navbars/AuthNavbar.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
 import '../../assets/styles/imgStyle.css'
@@ -11,7 +11,7 @@ import '../../assets/styles/imgStyle.css'
 export default function Software() {
   return (
     <>
-      <Navbar transparent />
+      <IndexNavbar transparent />
       <main>
         <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
           <div
@@ -30,7 +30,7 @@ export default function Software() {
             <div className="items-center flex flex-wrap">
               <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                 <div className="pr-12">
-                  <h1 className="text-white font-semibold text-5xl">
+                  <h1 className="text-white pt-20 font-semibold text-5xl">
                     Welcome to Software Circle
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
@@ -93,7 +93,7 @@ export default function Software() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  // src={require("assets/img/PngItem_1947767.png").default}
+                   src={require("assets/img/SoftwareLogo.png").default}
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -113,7 +113,7 @@ export default function Software() {
                 </div>
                 <div className="md:pr-12">
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
-                    <i className="fas fa-rocket text-xl"></i>
+                  <i className="fas fa-star text-xl"></i>
                   </div>
                   <h3 className="text-3xl font-semibold">Our Mission</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
@@ -150,7 +150,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       President
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -178,7 +178,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Secretary
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -204,7 +204,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Editor
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -230,9 +230,9 @@ export default function Software() {
                       Sahanaka Weraniyagoda{" "}
                     </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
-                      Final year committee member
+                      Committee member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -265,7 +265,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                     committee member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -293,7 +293,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       committee member
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-pink-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -325,7 +325,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Marketing Specialist
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"
@@ -354,7 +354,7 @@ export default function Software() {
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       UI/UX Designer
                     </p>
-                    <div className="mt-6">
+                    <div className="mt-2">
                       <button
                         className="bg-red-600 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
                         type="button"

@@ -105,7 +105,7 @@ export default function Index() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-900">
                 <img
                   alt="..."
-                  src={require("assets/img/Photo-Eranda.jpeg").default}
+                  src={require("assets/img/Photo-Rajitha.jpeg").default}
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -123,13 +123,13 @@ export default function Index() {
                   <h4 className="text-xl text-center font-bold text-white">
                     Head Of Department
                     <br />
-                    Mr. Eranda Jayatunga
+                   Dr. Rajitha Udawalpola
+
                   </h4>
                   <p className="text-md font-light text-center mt-2 text-white">
                     <span className=""> </span>
                     <br />
-                    Senior Lecturer MEng (AIT, Thailand) BScEng (Hons)
-                    (Peradeniya)
+                    Senior Lecturer PhD (Uppsala, Sweden), BScEng (Hons) (Peradeniya)
                   </p>
                 </blockquote>
               </div>
@@ -521,31 +521,31 @@ export default function Index() {
 
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    School Robotics Workshop
+                    Fire Detection Workshop
+                 
                     <br />
-                    2017
+                    2022
                   </h5>
-                  <Link to="/">
+                  <Link to="/event/FireDetection">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
-                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        className="align-middle img-size-2 border-none max-w-full h-auto rounded-lg"
                         src={
-                          require("assets/img/20232959_1783752305248042_7703482154399966959_o.jpg")
+                          require("assets/img/280194376_2961706800785914_1933065949601884290_n.jpeg")
                             .default
                         }
                       />
                     </div>
                   </Link>
                 </div>
-
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Xbotics 
                     <br />
                       2019
                   </h5>
-                  <Link to="/">
+                  <Link to="/event/Exbotics">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -581,7 +581,7 @@ export default function Index() {
                   <h5 className="text-xl text-blueGray-100 font-semibold pb-4 text-center">
                     Xbotics - 2017
                   </h5>
-                  <Link to="/">
+                  <Link to="/event/Exbotics">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
