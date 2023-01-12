@@ -87,8 +87,7 @@ export default function Landing() {
                     <p className="mt-2 mb-4 text-blueGray-500">
                       Software circle of EIES promotes software based carrier
                       sector and empower the undergraduates to broaden their
-                      scope of knowledge regarding software field. We encourage
-                      the application of ...
+                      scope of knowledge regarding software field. 
                     </p>
                   </div>
                 </div>

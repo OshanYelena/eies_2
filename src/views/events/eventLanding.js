@@ -86,7 +86,7 @@ export default function Landing() {
                           </Link>
                           <Link to="/event/WorkshopTronic">
                             <li className="list-item">
-                            The workshop by tronic circle
+                            The Workshop by Electronic circle
                             </li>
                           </Link>
 
@@ -136,7 +136,7 @@ export default function Landing() {
                           </Link>
                           <Link to="/event/DotNet">
                             <li className="list-item">
-                              Hand-on backend web development
+                              Hand-on Backend Web Development
 
                             </li>
                           </Link>
@@ -182,13 +182,13 @@ export default function Landing() {
                           </Link>
                           <Link to="/event/Awareness">
                             <li className="list-item">
-                              Awareness sessions 2022
+                              Awareness Sessions 2022
                             </li>
                           </Link>
                           <Link to="/event/GuideCareer">
                             <li className="list-item">
                               {" "}
-                              A guide for career opportunities
+                              A Guide For Career Opportunities
                             
                             </li>
                           </Link>

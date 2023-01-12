@@ -283,8 +283,8 @@ export default function Software() {
                 <div className="px-6">
                   <img
                     alt="..."
-                    // src={require("assets/img/software/IMG-6281 - Sahanaka Weraniyagoda.jpg").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                   src={require("assets/img/software/asdsd.jpg").default}
+                    className="shadow-lg img-size rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">
