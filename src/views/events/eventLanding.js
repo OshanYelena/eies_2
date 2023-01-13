@@ -62,7 +62,7 @@ export default function Landing() {
               <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
-                    <Link to="/event/Exbotics">
+                    <Link to="/event/ExbotiX">
                       <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                         <img
                           alt="..."
@@ -73,8 +73,8 @@ export default function Landing() {
                     </Link>
 
                     <h6 className=" contain text-xl font-semibold">
-                      <Link to="/event/Exbotics">
-                        <div className="list-item">Xbotics</div>
+                      <Link to="/event/ExbotiX">
+                        <div className="list-item">XbotiX</div>
                       </Link>
                     </h6>
                   </div>
@@ -283,7 +283,7 @@ export default function Landing() {
                 </div>
               </div>
 
-              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              {/* <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                   <Link to="/event/Awareness">
@@ -304,8 +304,8 @@ export default function Landing() {
                     </h6>
                   </div>
                 </div>
-              </div>
-              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              </div> */}
+              {/* <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                   <Link to="/event/GuideCareer">
@@ -329,8 +329,8 @@ export default function Landing() {
                     </h6>
                   </div>
                 </div>
-              </div>
-              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              </div> */}
+              {/* <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                   <Link to="/event/UnlockHigh">
@@ -353,7 +353,7 @@ export default function Landing() {
                     </h6>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               <div className="pt-6 justify-center md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"></div>

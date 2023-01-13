@@ -783,7 +783,7 @@ export const DotNet = () => {
   );
 };
 
-export const Exbotics = () => {
+export const ExbotiX = () => {
   return (
     <>
       {" "}
@@ -799,7 +799,7 @@ export const Exbotics = () => {
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">Xbotics</h3>
+                <h3 className="text-3xl font-semibold">XbotiX</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   XbotiX 2019 is the robotic competition organized by Electrical
                   and Information Engineering Society (EIES) in collaboration
@@ -833,7 +833,7 @@ export const Exbotics = () => {
                         </span>
                       </div>
                       <div>
-                        <h4 className="text-blueGray-500">Xbotics</h4>
+                        <h4 className="text-blueGray-500">XbotiX</h4>
                       </div>
                     </div>
                   </li>
@@ -878,7 +878,7 @@ export const Exbotics = () => {
                 Photo Gallery
               </h5>
               <h5 className="text-xl font-semibold mt-10 pb-4 text-center">
-                Exbotics - 2017
+              XbotiX - 2017
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -923,7 +923,7 @@ export const Exbotics = () => {
             </div>
             <div className="w-full lg:w-12/12 px-4  mt-15">
               <h5 className="text-xl font-semibold pb-4 text-center">
-                Exbotics - 2018
+              XbotiX - 2018
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -968,7 +968,7 @@ export const Exbotics = () => {
             </div>
             <div className="w-full lg:w-12/12 px-4  mt-15">
               <h5 className="text-xl font-semibold pb-4 text-center">
-                Exbotics - 2019
+              XbotiX - 2019
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -1270,7 +1270,7 @@ export default function Events() {
       {name == "UnlockHigh" && <UnlockHigh />}
       {name == "GuideCareer" && <GuideCareer />}
       {name == "DotNet" && <DotNet />}
-      {name == "Exbotics" && <Exbotics />}
+      {name == "ExbotiX" && <ExbotiX />}
       {name == "Awareness" && <Awareness />}
       {name == "Career" && <Career />}
 
