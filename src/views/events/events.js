@@ -176,7 +176,8 @@ export const FireDetection = () => {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  𝐅𝐢𝐫𝐞 𝐃𝐞𝐭𝐞𝐜𝐭𝐢𝐨𝐧 𝐚𝐧𝐝 𝐏𝐫𝐨𝐭𝐞𝐜𝐭𝐢𝐨𝐧 by power circle and IEEE
+                  
+                Fire Detection and Protection By Power Circle And IEEE
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   A workshop on “Fire Detection and Protection Design” by
@@ -1109,7 +1110,7 @@ export const Career = () => {
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">Career fair 2022</h3>
+                <h3 className="text-3xl font-semibold">Career Fair 2022</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   The Career fair is one of the major platforms where young
                   undergraduates and graduates of faculty of engineering in
