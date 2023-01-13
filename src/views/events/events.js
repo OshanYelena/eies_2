@@ -243,7 +243,7 @@ export const FireDetection = () => {
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <h5 className="text-xl font-semibold pb-4 text-center">
-              Photo Gallery
+                Photo Gallery
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -420,6 +420,25 @@ export const HackDoze1 = () => {
                       <div>
                         <h4 className="text-blueGray-500">
                           HackDoze 1.0 - python workshop series and Hackathon
+                        </h4>
+                      </div>
+                    </div>
+            
+                  </li>
+                  <li className="py-2">
+                 
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i class="fas fa-code"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-red-500">
+                          <a className="" href="https://hackdoze-eies.github.io/hackathon/">
+                            To the Site
+                          </a>
+                     
                         </h4>
                       </div>
                     </div>
@@ -778,7 +797,7 @@ export const Exbotics = () => {
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
-                <h3 className="text-3xl font-semibold">Xbotics 2019, 2017</h3>
+                <h3 className="text-3xl font-semibold">Xbotics</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   XbotiX 2019 is the robotic competition organized by Electrical
                   and Information Engineering Society (EIES) in collaboration
@@ -833,6 +852,55 @@ export const Exbotics = () => {
                     .default
                 }
               />
+            </div>
+          </div>
+        </div>
+        <div className="container mx-auto">
+          <div className="justify-center flex flex-wrap">
+            <div className="w-full lg:w-12/12 px-4  -mt-24">
+              <h5 className="text-xl font-semibold pb-4 text-center">
+                Photo Gallery
+              </h5>
+              <div className="flex flex-wrap">
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2017/22384123_1815087722114500_4683437197328096812_o.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2017/22528770_1819242831698989_7102871479813875123_o.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2017/22548988_1819200961703176_749600597043189848_o.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -934,11 +1002,27 @@ export const Career = () => {
                 </div>
                 <h3 className="text-3xl font-semibold">Career fair 2022</h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  "Career Fair 2022" is a program aimed to offer the industrial
-                  exposure to the students in 2nd year, 3rd year and final year.
-                  This event was successfully concluded on 7th June 2022.
-                  Several industries took part in the career fair including
-                  Lseg, Synopsis, creative software, Mit esp and enactor.
+                  The Career fair is one of the major platforms where young
+                  undergraduates and graduates of faculty of engineering in
+                  university of Ruhuna can meet industry partners who will be
+                  offering internship and job opportunities in one location.
+                  Career week 2022 was organized by Electrical and Information
+                  Engineering Society of Faculty of Engineering University of
+                  Ruhuna collaborating with Career Guidance Unit. This was a
+                  huge opportunity for the undergraduates to identify their
+                  potential, enhance their skills and pre-qualify for the future
+                  recruitment opportunities. Career fair mainly focused on four
+                  sessions to optimize the skills on cv writing and interview
+                  facing and aware about the industry. Deviating from the
+                  traditional online interface, this time career fair gave final
+                  year undergraduates to face mock interview in physical
+                  platform. This offered an opportunity uplift the hands-on
+                  experience. Career week 2022 was consist of awareness sessions
+                  conducted by leading industrial giants like London Stock
+                  Exchange Group, MillenniumIT ESP, Creative software and
+                  Syscolabs etc. This offered an opportunity for undergraduates
+                  to solve their confusions and have clear idea about the future
+                  career path.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -993,8 +1077,60 @@ export const Career = () => {
                   transform:
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
-                src={require("assets/img/documentation.png").default}
+                src={
+                  require("assets/img/289691980_2997309687225625_6340273345131253649_n.jpg")
+                    .default
+                }
               />
+            </div>
+          </div>
+        </div>
+        <div className="container mx-auto">
+          <div className="justify-center flex flex-wrap">
+            <div className="w-full lg:w-12/12 px-4  -mt-24">
+              <h5 className="text-xl font-semibold pb-4 text-center">
+                Photo Gallery
+              </h5>
+              <div className="flex flex-wrap">
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/290590488_2997310390558888_5861774523924550405_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/290416016_2997309360558991_6148363483366547015_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/290597664_2997310117225582_7161198404293812574_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -1004,11 +1140,10 @@ export const Career = () => {
 };
 
 export default function Events() {
-
-  const ref  = React.createRef();
+  const ref = React.createRef();
   const { name } = useParams();
   useEffect(() => {
-    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
   return (

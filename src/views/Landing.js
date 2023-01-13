@@ -16,7 +16,8 @@ export default function Landing() {
             className="absolute top-0 w-full h-full bg-center bg-cover"
             style={{
               backgroundImage:
-                "url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')",
+              "url('https://scontent.fcmb1-2.fna.fbcdn.net/v/t1.6435-9/42506566_1008768885975952_7865025124108337152_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=wPMvhEXXQK8AX_OvLbH&_nc_ht=scontent.fcmb1-2.fna&oh=00_AfAN9M3pnK16d4zd4bc6KyUgnEDa5p-9Q1Wvde-U3cjFDQ&oe=63E6EA84')",
+                
             }}
           >
             <span

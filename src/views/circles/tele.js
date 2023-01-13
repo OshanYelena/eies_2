@@ -282,7 +282,7 @@ export default function Tele() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">NAME</h5>
+                    <h5 className="text-xl font-bold">Vimukthi Nisansala</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Committee Member
                     </p>

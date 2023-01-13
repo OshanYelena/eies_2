@@ -66,144 +66,234 @@ export default function Landing() {
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={
-                          require("assets/img/xbotix.jpg").default
-                        }
+                        src={require("assets/img/xbotix.jpg").default}
                       />
                     </div>
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                      <i class="fas fa-bookmark"></i>
-                    </div>
-                    <h6 className="text-xl font-semibold">
-                      Events On 2018, 2019 & 2020
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/Exbotics">
+                        <div className="list-item">Xbotics</div>
+                      </Link>
                     </h6>
-                    <div className="contain">
-                      <div className="menu">
-                 
-                        <ul className="list">
-                          <Link to="/event/Innovex">
-                            <li className="list-item">INNIVATIX 1.0</li>
-                          </Link>
-                          <Link to="/event/WorkshopTronic">
-                            <li className="list-item">
-                            The Workshop by Electronic circle
-                            </li>
-                          </Link>
-
-                          <Link to="/event/Cisco">
-                            <li className="list-item">
-                              {" "}
-                              Introduction to Cisco Certification
-                        
-                            </li>
-                          </Link>
-                          <Link to="/event/Diptrace">
-                            <li className="list-item">DIPTRACE Workshop</li>
-                          </Link>
-                          <Link to="/event/Exbotics">
-                            <li className="list-item">Xbotics 2019, 2017</li>
-                          </Link>
-                        </ul>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>
-
-              <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle img-size-3 border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/HachDoze-1.0-1280x640.jpg").default}
+                      />
+                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/HackDoze1">
+                        <li className="list-item">HackDoze</li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={
-                          require("assets/img/asp.net.jpg")
-                            .default
-                        }
+                        src={require("assets/img/fire.jpg").default}
                       />
                     </div>
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
-                      <i class="fas fa-bookmark"></i>
-                    </div>
-                    <h6 className="text-xl font-semibold">Event On 2021</h6>
-                    <div className="contain">
-                      <div className="menu">
-                        {/* <button className="toggle">Events</button> */}
-                        <ul className="list">
-                          <Link to="/event/HackDoze1">
-                            <li className="list-item">HackDoze 1.0</li>
-                          </Link>
-                          <Link to="/event/DotNet">
-                            <li className="list-item">
-                              Hand-on Backend Web Development
-
-                            </li>
-                          </Link>
-            
-                        </ul>
-                      </div>
-                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/FireDetection">
+                        <li className="list-item">
+                          {" "}
+                          Fire Detection and Protection
+                        </li>
+                      </Link>
+                    </h6>
                   </div>
                 </div>
               </div>
-
-              <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                   <div className="px-4 py-5 flex-auto">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={
-                          require("assets/img/fire.jpg")
-                            .default
-                        }
+                        src={require("assets/img/293511733_2050933631759467_6941341020540910265_n.jpeg").default}
                       />
                     </div>
-                    <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
-                      <i class="fas fa-bookmark"></i>
-                      {/* <i class="fa-regular fa-bookmark"></i> */}
-                    </div>
-                    <h6 className="text-xl font-semibold">Event On 2022</h6>
-                    <div className="contain">
-                      <div className=" menu">
-                   
-                        <ul className="list">
-                        <Link to="/event/FireDetection">
-                            <li className="list-item">
-                              {" "}
-                              Fire Detection and Protection
-                          
-                            </li>
-                          </Link>
-                          <Link to="/event/Career">
-                            <li className="list-item">Career fair 2022</li>
-                          </Link>
-                          <Link to="/event/Awareness">
-                            <li className="list-item">
-                              Awareness Sessions 2022
-                            </li>
-                          </Link>
-                          <Link to="/event/GuideCareer">
-                            <li className="list-item">
-                              {" "}
-                              A Guide For Career Opportunities
-                            
-                            </li>
-                          </Link>
-                          <Link to="/event/UnlockHigh">
-                            <li className="list-item">
-                              Unlock Your Higher Studies Goals
-                            </li>
-                          </Link>
-                      
-                        </ul>
-                      </div>
-                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/Innovex">
+                        <li className="list-item">INNIVATIX 1.0</li>
+                      </Link>
+                    </h6>
                   </div>
                 </div>
               </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/workshop on equips.jpg").default}
+                      />
+                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/WorkshopTronic">
+                        <li className="list-item">
+                          The Workshop by Electronic Circle
+                        </li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/278084806_1979093532276811_606329407904681013_n.jpeg").default}
+                      />
+                    </div>
+
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/Cisco">
+                        <li className="list-item">
+                          {" "}
+                          Introduction to Cisco Certification
+                        </li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/274449782_1942842952568536_3371352016318589329_n.jpeg").default}
+                      />
+                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/Diptrace">
+                        <li className="list-item">DIPTRACE Workshop</li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/asp.net.jpg").default}
+                      />
+                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/DotNet">
+                        <li className="list-item">
+                          Hands-on Backend Web Development
+                        </li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/284208171_2017888398397324_47513556800236840_n.jpeg").default}
+                      />
+                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/Career">
+                        <li className="list-item">Career fair 2022</li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/xbotix.jpg").default}
+                      />
+                    </div>
+
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/Awareness">
+                        <li className="list-item">Awareness Sessions 2022</li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/xbotix.jpg").default}
+                      />
+                    </div>
+
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/GuideCareer">
+                        <li className="list-item">
+                          {" "}
+                          A Guide For Career Opportunities
+                        </li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                  <div className="px-4 py-5 flex-auto">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/xbotix.jpg").default}
+                      />
+                    </div>
+                    <h6 className=" contain text-xl font-semibold">
+                      <Link to="/event/UnlockHigh">
+                        <li className="list-item">
+                          Unlock Your Higher Studies Goals
+                        </li>
+                      </Link>
+                    </h6>
+                  </div>
+                </div>
+              </div>
+
 
               <div className="pt-6 justify-center md:w-4/12 px-4 text-center">
                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg"></div>

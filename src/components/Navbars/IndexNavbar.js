@@ -24,7 +24,6 @@ export default function Navbar(props) {
                 src={require("assets/img/EIES LOGO.png").default}
                 alt=""
               />
-          
             </Link>
             <button
               className="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -57,34 +56,33 @@ export default function Navbar(props) {
                 <Link to="/home"> Home</Link>
               </li>
               <li className="flex items-center hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
-                <Link to="/landing"> Circles</Link>
-              </li>
-              <li className="flex items-center hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <Link to="/events-landing"> Events</Link>
               </li>
               <li className="flex items-center hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
+                <Link to="/landing"> Circles</Link>
+              </li>
+
+              <li className="flex items-center hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold">
                 <Link to="/profile"> About</Link>
               </li>
-              <li className="flex items-center">
-                {/* <IndexDropdown /> */}
-              </li>
+              <li className="flex items-center">{/* <IndexDropdown /> */}</li>
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="text-lightBlue-400 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.facebook.com/EIESUOR"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-facebook text-lg leading-lg " />
+                  <i className="text-lightBlue-600 fab fa-facebook text-lg leading-lg " />
                 </a>
               </li>
 
               <li className="flex items-center">
                 <a
-                  className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                  className="text-lightBlue-400 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
                   href="https://www.linkedin.com/company/electrical-and-information-engineering-society-university-of-ruhuna/"
                   target="_blank"
                 >
-                  <i className="text-blueGray-400 fab fa-linkedin text-lg leading-lg " />
+                  <i className="text-lightBlue-400 fab fa-linkedin text-lg leading-lg " />
                 </a>
               </li>
 

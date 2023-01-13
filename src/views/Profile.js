@@ -24,7 +24,7 @@ export default function Profile() {
           <div className="relative pt-20 pb-32 flex content-center items-center justify-center min-h-screen-75">
             <div className="container relative mx-auto">
               <div className="items-center flex flex-wrap">
-                <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div className="w-full lg:w-8/12 px-4 ml-auto mr-auto text-center">
                   <div className="pr-12">
                     <h1 className="text-white font-semibold text-5xl">
                       Electrical And Information Engineering Society (EIES)
@@ -61,11 +61,11 @@ export default function Profile() {
                 <div className="flex flex-wrap justify-center">
                   <div className="w-full lg:w-3/12 px-4  flex justify-center">
                     <div className="relative">
-                      <img
+                      {/* <img
                         alt="..."
                          src={require("assets/img/EIES LOGO.jpg").default}
                         className="shadow-xl rounded-full h-auto align-middle border-none absolute -m-16 -ml-20 lg:-ml-16 max-w-200-px"
-                      />
+                      /> */}
                     </div>
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
@@ -73,7 +73,7 @@ export default function Profile() {
                   </div>
                   <div className="w-full lg:w-4/12 px-4 lg:order-1"></div>
                 </div>
-                <div className="text-center mt-20">
+                <div className="text-center mt-5">
                 <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
@@ -81,7 +81,7 @@ export default function Profile() {
                     Vision
                   </h3>
                 </div>
-                <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
+                <div className="mt-5 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
@@ -92,7 +92,7 @@ export default function Profile() {
                     </div>
                   </div>
                 </div>
-                <div className="text-center mt-20">
+                <div className="text-center mt-2">
                 <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-star text-xl"></i>
                   </div>
@@ -100,7 +100,7 @@ export default function Profile() {
                     Mission
                   </h3>
                 </div>
-                <div className="mt-10 py-10 border-t border-blueGray-200 text-center">
+                <div className="mt-5 py-10 border-t border-blueGray-200 text-center">
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
@@ -124,7 +124,7 @@ export default function Profile() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Meet Our EX-COM</h2>
+                <h2 className="text-4xl font-semibold">Executive Committee - 21/22</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500"></p>
               </div>
             </div>
@@ -305,7 +305,7 @@ export default function Profile() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Poorna Manjula </h5>
+                    <h5 className="text-xl font-bold">Poorna Manujaya </h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Social Secretary
                     </p>
@@ -363,7 +363,7 @@ export default function Profile() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Thihara kumarasinghe</h5>
+                    <h5 className="text-xl font-bold">Thihara Kumarasinghe</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Editor
                     </p>

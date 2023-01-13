@@ -28,22 +28,35 @@ export default function Footer() {
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
               <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
-              Department of Electrical and Information Engineering, Faculty of Engineering, University of Ruhuna, Hapugala, Galle, 80000, Sri Lanka
+                Department of Electrical and Information Engineering, Faculty of
+                Engineering, University of Ruhuna, Hapugala, Galle, 80000, Sri
+                Lanka
               </h5>
               <div className="mt-6 lg:mb-0 mb-6">
                 <button
                   className="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <i className="fab fa-linkedin"></i>
+                  <a
+                    className=" px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="https://www.linkedin.com/company/electrical-and-information-engineering-society-university-of-ruhuna/"
+                    target="_blank"
+                  >
+                    <i className="fab fa-linkedin text-lg leading-lg " />
+                  </a>
                 </button>
                 <button
-                  className="bg-white text-lightBlue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                  className="bg-white font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                   type="button"
                 >
-                  <i className="fab fa-facebook-square"></i>
+                  <a
+                    className="hover:text-blueGray-500 text-blueGray-700 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+                    href="https://www.facebook.com/EIESUOR"
+                    target="_blank"
+                  >
+                    <i className="text-lightBlue-600  fab fa-facebook text-lg leading-lg " />
+                  </a>
                 </button>
-            
               </div>
             </div>
             <div className="w-full lg:w-6/12 px-4">
@@ -64,7 +77,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://blog.creative-tim.com?ref=nr-footer"
+                        href="/events-landing"
                       >
                         Events
                       </a>
@@ -87,15 +100,17 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="http://www.eng.ruh.ac.lk/" target="_blank"
-                      > 
-                       Faculty Of Engineering
+                        href="http://www.eng.ruh.ac.lk/"
+                        target="_blank"
+                      >
+                        Faculty Of Engineering
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.ruh.ac.lk/index.php/en/" target="_blank"
+                        href="https://www.ruh.ac.lk/index.php/en/"
+                        target="_blank"
                       >
                         University Of Ruhuna
                       </a>
@@ -103,15 +118,17 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="http://eie.eng.ruh.ac.lk/" target="_blank"
+                        href="http://eie.eng.ruh.ac.lk/"
+                        target="_blank"
                       >
-                      DEIE
+                        DEIE
                       </a>
                     </li>
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="http://eie.eng.ruh.ac.lk/alumni/" target="_blank"
+                        href="http://eie.eng.ruh.ac.lk/alumni/"
+                        target="_blank"
                       >
                         Alumni
                       </a>
