@@ -386,7 +386,7 @@ export const HackDoze1 = () => {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  HackDoze by tele and software circle
+                  HackDoze by Telecommunication and Software circle
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   HackDoze 1.0, a Python Workshop series and subsequently a
