@@ -4,6 +4,8 @@ import { useParams } from "react-router";
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import Footer from "components/Footers/Footer.js";
 
+import { LogoChange } from "./logo.js";
+
 export const Innovex = () => {
   return (
     <>
@@ -20,7 +22,7 @@ export const Innovex = () => {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  Round table discussion - INNIVATIX 1.0 (4)
+                  Round table discussion - INN0VATIX 1.0
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                   “Innovatix 1.0” is a round table discussion, organized by
@@ -423,10 +425,8 @@ export const HackDoze1 = () => {
                         </h4>
                       </div>
                     </div>
-            
                   </li>
                   <li className="py-2">
-                 
                     <div className="flex items-center">
                       <div>
                         <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
@@ -435,10 +435,12 @@ export const HackDoze1 = () => {
                       </div>
                       <div>
                         <h4 className="text-red-500">
-                          <a className="" href="https://hackdoze-eies.github.io/hackathon/">
+                          <a
+                            className=""
+                            href="https://hackdoze-eies.github.io/hackathon/"
+                          >
                             To the Site
                           </a>
-                     
                         </h4>
                       </div>
                     </div>
@@ -835,6 +837,20 @@ export const Exbotics = () => {
                       </div>
                     </div>
                   </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i class="fas fa-info"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Conducted Years - 2017, 2018, 2019
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -848,7 +864,7 @@ export const Exbotics = () => {
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
                 src={
-                  require("assets/img/22528702_1819239778365961_2612831821938172801_o.jpeg")
+                  require("assets/img/2019/79675672_2304264153196852_2254890128554065920_n.jpg")
                     .default
                 }
               />
@@ -858,8 +874,11 @@ export const Exbotics = () => {
         <div className="container mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
-              <h5 className="text-xl font-semibold pb-4 text-center">
+              <h5 className="text-2xl font-semibold pb-4 text-center">
                 Photo Gallery
+              </h5>
+              <h5 className="text-xl font-semibold mt-10 pb-4 text-center">
+                Exbotics - 2017
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -895,6 +914,96 @@ export const Exbotics = () => {
                       className="align-middle border-none max-w-full h-auto rounded-lg"
                       src={
                         require("assets/img/2017/22548988_1819200961703176_749600597043189848_o.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full lg:w-12/12 px-4  mt-15">
+              <h5 className="text-xl font-semibold pb-4 text-center">
+                Exbotics - 2018
+              </h5>
+              <div className="flex flex-wrap">
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2018/46315262_2034949026795034_5719905357388578816_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2018/46362847_2034949563461647_8315667704283398144_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2018/46431726_2034954126794524_1523454852993122304_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="w-full lg:w-12/12 px-4  mt-15">
+              <h5 className="text-xl font-semibold pb-4 text-center">
+                Exbotics - 2019
+              </h5>
+              <div className="flex flex-wrap">
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2019/79830391_2304217809868153_7634915048564981760_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2019/80046267_2304226839867250_3167114446053048320_n.jpg")
+                          .default
+                      }
+                    />
+                  </div>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                    <img
+                      alt="..."
+                      className="align-middle border-none max-w-full h-auto rounded-lg"
+                      src={
+                        require("assets/img/2019/81464029_2304248573198410_5540388514828386304_n.jpg")
                           .default
                       }
                     />
@@ -1051,6 +1160,7 @@ export const Career = () => {
                       </div>
                     </div>
                   </li>
+
                   {/* <li className="py-2">
                       <div className="flex items-center">
                         <div>
@@ -1078,11 +1188,12 @@ export const Career = () => {
                     "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
                 }}
                 src={
-                  require("assets/img/289691980_2997309687225625_6340273345131253649_n.jpg")
+                  require("assets/img/290416016_2997309360558991_6148363483366547015_n.jpg")
                     .default
                 }
               />
             </div>
+            <LogoChange />
           </div>
         </div>
         <div className="container mx-auto">
@@ -1111,7 +1222,7 @@ export const Career = () => {
                       alt="..."
                       className="align-middle border-none max-w-full h-auto rounded-lg"
                       src={
-                        require("assets/img/290416016_2997309360558991_6148363483366547015_n.jpg")
+                        require("assets/img/289691980_2997309687225625_6340273345131253649_n.jpg")
                           .default
                       }
                     />
