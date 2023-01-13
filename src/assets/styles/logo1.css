@@ -8,14 +8,20 @@
       transform: translateX(calc(-250px * 7));
     }
   } */
+  .pad-lef{
+    padding-left: 10px;
+  }
   .slider {
-
-    padding-left: 300px;
+    padding-top: 10px;
+    padding-left: 150px;
     height: 100px;
-    margin: auto;
-    overflow: hidden;
-    position: relative;
-    width: auto;
+
+    /* margin: auto; */
+    /* overflow: hidden;
+    position: relative; */
+    /* width: auto; */
+
+
   }
   .slider .slide-track {
     animation: scroll 40s linear infinite;

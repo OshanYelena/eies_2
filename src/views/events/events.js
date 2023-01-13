@@ -878,7 +878,7 @@ export const ExbotiX = () => {
                 Photo Gallery
               </h5>
               <h5 className="text-xl font-semibold mt-10 pb-4 text-center">
-              XbotiX - 2017
+                XbotiX - 2017
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -923,7 +923,7 @@ export const ExbotiX = () => {
             </div>
             <div className="w-full lg:w-12/12 px-4  mt-15">
               <h5 className="text-xl font-semibold pb-4 text-center">
-              XbotiX - 2018
+                XbotiX - 2018
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -968,7 +968,7 @@ export const ExbotiX = () => {
             </div>
             <div className="w-full lg:w-12/12 px-4  mt-15">
               <h5 className="text-xl font-semibold pb-4 text-center">
-              XbotiX - 2019
+                XbotiX - 2019
               </h5>
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
@@ -1102,7 +1102,7 @@ export const Career = () => {
           className="-mt-20 top-0 bottom-auto left-0 right-0 w-full absolute h-20"
           style={{ transform: "translateZ(0)" }}
         ></div>
-        <div className="container mx-auto px-4 pb-32 pt-48">
+        <div className="container mx-auto px-4 pb-20 pt-48">
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
@@ -1126,12 +1126,13 @@ export const Career = () => {
                   traditional online interface, this time career fair gave final
                   year undergraduates to face mock interview in physical
                   platform. This offered an opportunity uplift the hands-on
-                  experience. Career week 2022 was consist of awareness sessions
-                  conducted by leading industrial giants like London Stock
-                  Exchange Group, MillenniumIT ESP, Creative software and
-                  Syscolabs etc. This offered an opportunity for undergraduates
-                  to solve their confusions and have clear idea about the future
-                  career path.
+                  experience. <br /> <br />
+                   "Career Fair 2022" is a program aimed to offer the
+                  industrial training opportunities to the students in final
+                  year. Several industries took part in the career fair
+                  including London Stock Exchange Group (LSEG), Synopsis,
+                  Creative Software, MIT ESP, Sysco LABS, Codegen International
+                  and Enactor.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">
@@ -1196,7 +1197,7 @@ export const Career = () => {
             <LogoChange />
           </div>
         </div>
-        <div className="container mx-auto">
+        <div className="container mt-20 mx-auto">
           <div className="justify-center flex flex-wrap">
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <h5 className="text-xl font-semibold pb-4 text-center">

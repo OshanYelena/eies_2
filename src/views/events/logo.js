@@ -24,15 +24,15 @@ export const LogoChange = () => {
               alt=""
             />
           </div>
-          {/* <div className="slide">
+          <div className="slide">
             <img
-              src="https://www.creativesoftware.com/themes/custom/elono/logo.png"
+              src="https://www.synopsys.com/content/experience-fragments/synopsys/en-us/global/eda/topnav/master/_jcr_content/root/topnav_copy.coreimg.svg/1646177682209/synopsys-logo-color.svg"
               height="100"
               width="250"
               alt=""
             />
-          </div> */}
-          <div className="slide">
+          </div>
+          <div className="slide ">
             <img
               src="https://syscolabs.lk/Sysco_LABS_Logo_Blue.png"
               height="100"
